@@ -68,8 +68,8 @@ public class MainTimeActivity extends AppCompatActivity {
         view.setText(currentTime);
 
         //Increase audio volume
-        AudioManager audioManager = (AudioManager) getApplicationContext().getSystemService(Context.AUDIO_SERVICE);
-        audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 80, AudioManager.FLAG_SHOW_UI);
+        //AudioManager audioManager = (AudioManager) getApplicationContext().getSystemService(Context.AUDIO_SERVICE);
+        //audioManager.setStreamVolume(AudioManager.STREAM_MUSIC, 80, AudioManager.FLAG_SHOW_UI);
 
     }
 }
